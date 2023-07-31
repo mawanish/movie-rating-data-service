@@ -25,11 +25,11 @@ public class RatingResourse {
     public UserRating getUserRatings(@PathVariable("userId") String userId) {
         List<Rating> ratings = Arrays.asList(
                 Rating.builder()
-                        .movieId("movie-1")
+                        .movieId("100")
                         .rating(4)
                         .build(),
                 Rating.builder()
-                        .movieId("movie-2")
+                        .movieId("200")
                         .rating(3)
                         .build()
         );
